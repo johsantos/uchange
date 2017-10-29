@@ -1,0 +1,123 @@
+﻿body
+{
+    overflow-x:hidden;
+}
+ .row
+ {
+     width:100%;
+     margin:0;
+     padding:0;
+ }
+ header
+ {
+     left:0;
+ } 
+ .destaque
+ {
+     color:#05703C;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+@media screen and (min-width: 451px)
+{
+     .titulo_pages {
+        width: 100%;
+        height: 360px;
+        padding: 30px 0;
+        background-image: url("../imagens/about.jpeg");
+        background-size: cover;
+        background-position: bottom;
+        background-attachment: fixed;
+    }
+    .titulo_pages article {
+        width: 100%;
+        height: 200px;
+        padding-top: 260px;
+        text-align: right;
+        color: white;
+    }
+
+    .titulo {
+        font-family: 'News Cycle', sans-serif;
+        width: 100%;
+        box-sizing: border-box;
+        /*	background: linear-gradient(to right, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.4) 20%, rgba(6,91,47,0.7) 50%,rgba(0,0,0,0.4) 80%, rgba(0,0,0,0.1) 100%);*/
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 10%, rgba(0, 50, 1, 0.7) 100%);
+        padding-right: 70px;
+        font-size:60px;
+    }
+    
+}
+
+@media screen and (max-width:450px)
+{
+    .titulo_pages {
+        width: 100%;
+        height: 278px;
+        padding: 30px 0;
+        background-image: url("../imagens/about.jpeg");
+        background-size: cover;
+        background-position: bottom;
+        background-attachment: fixed;
+    }
+    .titulo_pages article {
+        width: 100%;
+        height: 200px;
+        padding-top: 190px;
+        text-align: right;
+        color: white;
+    }
+
+    .titulo {
+        font-family: 'News Cycle', sans-serif;
+        width: 100%;        
+        box-sizing: border-box;
+        /*	background: linear-gradient(to right, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.4) 20%, rgba(6,91,47,0.7) 50%,rgba(0,0,0,0.4) 80%, rgba(0,0,0,0.1) 100%);*/
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 10%, rgba(0, 50, 1, 0.7) 100%);
+        padding-right:10px;
+        font-size:50px;
+    }
+    
+}
+
+.conteudo
+{
+    padding-bottom:30px;    
+    box-sizing: border-box;
+}
+.icon_sobre
+{
+    width:300px;
+    margin:15px auto;
+    text-align:center;
+    
+}
+.icon_sobre img
+{    
+    width:100px;    
+    height:100px;
+    object-fit: cover;
+    object-position: center;
+    margin:auto;
+}
+.texto
+{
+    box-sizing: border-box;
+    padding:30px;    
+    
+}
+figcaption
+{
+    font-size:14px;
+}
+.texto h1
+{
+    color:#05703C;
+    font-size:30px;
+}
+.texto p
+{
+    text-align:justify;
+    font-size:16px;
+   
+}

@@ -1,0 +1,96 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body 
+{
+    background-color: #f2f2f2;
+}
+
+.menu_navegacao 
+{
+    position:fixed;
+    top:0;
+    height: 50px;
+    width: 100%;
+    background-color: #f2f2f2;}
+
+.logotipo 
+{
+    margin-left: 2%;
+    padding-top: 2px;    
+}
+    
+.menu_navegacao a 
+{   
+    text-decoration: none;
+    color: #004726;    
+    padding: 14px 20px;
+    font-size: 12pt;}
+
+.menu_navegacao a:hover
+{
+    background-color: #D3D3D3;
+ }
+.menu_navegacao nav
+{
+    margin-top:13px;
+}
+.menu_navegacao li 
+{
+    display:inline;
+ }
+    
+
+    
+    
+    
+.rodape 
+{
+    background-color: #36975C;
+    height: 90px;
+    width: 100%;
+    position:absolute;
+    bottom:0;
+    margin: 5px auto 0;
+    }
+.bloquinho 
+{
+    margin: auto;
+    width: 168px;
+    height:60px;
+   }
+    
+.redes_sociais 
+{
+    float: left;
+    margin: 8px 8px 4px;
+    }
+    
+.desenvolvido_por 
+{
+    color: #f2f2f2;
+    font-size: 9pt;
+    }
+
+.snakes 
+{
+    text-decoration: none;
+    color: #f2f2f2;
+    padding: 1px;
+    }
+.snakes:hover 
+{
+    border-bottom: 1px solid #004725;
+    }
+    
+.oto_bloquinho 
+{
+    margin: auto;
+    text-align:center;
+    width: 185px;
+    height:20px;}
+    
+
+    

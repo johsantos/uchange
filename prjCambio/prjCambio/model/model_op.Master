@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="model_op.master.cs" Inherits="prjCambio.model_op" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server"> 
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">     
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="../font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
+     <link href="../css/animate.css" rel="stylesheet">
+     <link href="../css/style_header.css" rel="stylesheet">
+     <link href="../css/style_footer.css" rel="Stylesheet" />
+     <title>uChange</title>   
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+</head>
+<body> 
+    <div class="container-fluid" >
+	<header class="row" id="menu">
+        
+		<div class="col">
+			<img class="logotipo " src="../imagens/Logotipo_1.png">	
+		</div>		
+		<div class="col text-right ">
+			<i class="fa fa-bars abrir_dropdown" aria-hidden="true"></i>
+		</div>
+		<div class="menu_dropdown sumir">			
+			<nav>
+				<ul>
+					<li class="fechar_dropdown" width="208px">X</li>
+					<a href="index.aspx"><li>Home</li></a>
+                    <a href="moedas.aspx"><li>Moedas</li></a>
+					<a href="about.aspx"><li>Sobre Nós</li></a>
+					<a href="contato.aspx"><li>Contato</li></a>
+				</ul>
+			</nav>
+		</div>
+	</header>
+    </div>
+    <form id="form1" runat="server">
+      
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+    </form>
+    <footer class="container-fluid">		
+		<section class="row">			
+			<article class="col-sm-12  col-md-1 text-center icon_footer">
+				<i class="fa fa-info infor" aria-hidden="true"></i>
+			</article>			
+			<article class="col-sm-12 col-md-11 texto_footer">
+				<p>contato@uchange.com.br</p>
+				<p>Av Epitacio Pessoa, 103 - São Paulo - SP</p>
+			</article>						
+		</section>		
+	</footer>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>	
+	<script src="../js/menu_navegacao.js"></script>
+    <script src="../js/header_fixed.js"></script>
+</body>
+</html>

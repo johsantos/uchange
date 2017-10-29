@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;    
+    z-index:600;
+}
+.sumir {
+    visibility: hidden;
+    display: none;
+    z-index: -1;
+}
+
+@media screen and ( min-width: 768px) {
+    .menu_dropdown {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        background-color: rgba(0, 61, 49, 0.81);
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: 28px;
+        color: white;
+    }
+}
+
+@media screen and ( max-width: 768px) {
+    .menu_dropdown {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 61, 49, 0.81);
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: 28px;
+        color: white;
+        z-index: 6;
+    }
+}
+
+.fechar_dropdown {
+    position: relative;
+    top: -10px;
+    cursor: pointer;
+}
+
+.menu_dropdown nav {
+    font-size: 28px;
+    width: 100%;
+    text-align: right;
+}
+
+.menu_dropdown nav a {
+    color: white;
+    cursor: pointer;
+}
+
+.menu_dropdown nav ul {
+    padding: 10px;
+}
+
+.menu_dropdown nav ul li {
+    list-style: none;
+    padding: 15px 5px;
+    width: auto;
+}
+
+.menu_dropdown nav a:hover,
+.menu_dropdown nav ul li:hover {
+    color: #00A987;
+    text-decoration: none;
+}
+
+.fechar_dropdown,
+.abrir_dropdown {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.abrir_dropdown {
+    margin: 20px 0;
+    color: white;
+}
+
+.fechar_dropdown:hover,
+.abrir_dropdown:hover {
+    color: #00A987;
+}
+
+.fechar_dropdown {
+    height: 50px;
+    margin-bottom: 70px;
+    margin-top: -20px;
+    position: relative;
+    left: 10px;
+}
+
+.text_zone {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.menu_fixo {
+    background-color: rgba(0, 0, 0, 1);    
+}
+
+.menu_fixo .logotipo {
+    width: 150px;
+    margin-top: 10px;
+    margin-left:0;
+}
+
+.menu_fixo .abrir_dropdown {
+    margin-top: 14px;
+}

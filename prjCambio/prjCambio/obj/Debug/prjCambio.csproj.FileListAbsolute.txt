@@ -1,0 +1,24 @@
+C:\Users\31298\Desktop\prjCambio\prjCambio\bin\prjCambio.dll
+C:\Users\31298\Desktop\prjCambio\prjCambio\bin\prjCambio.pdb
+C:\Users\31298\Desktop\prjCambio\prjCambio\obj\Debug\prjCambio.dll
+C:\Users\31298\Desktop\prjCambio\prjCambio\obj\Debug\prjCambio.pdb
+H:\prjCambio\prjCambio\obj\Debug\prjCambio.dll
+H:\prjCambio\prjCambio\bin\prjCambio.dll
+H:\prjCambio\prjCambio\bin\prjCambio.pdb
+H:\prjCambio\prjCambio\obj\Debug\prjCambio.pdb
+C:\Users\Jônatas Santos\Desktop\prjCambio\prjCambio\bin\prjCambio.dll
+C:\Users\Jônatas Santos\Desktop\prjCambio\prjCambio\bin\prjCambio.pdb
+C:\Users\Jônatas Santos\Desktop\prjCambio\prjCambio\obj\Debug\prjCambio.dll
+C:\Users\Jônatas Santos\Desktop\prjCambio\prjCambio\obj\Debug\prjCambio.pdb
+J:\Casa de Cambio\prjCambio\prjCambio\bin\prjCambio.dll
+J:\Casa de Cambio\prjCambio\prjCambio\bin\prjCambio.pdb
+J:\Casa de Cambio\prjCambio\prjCambio\obj\Debug\prjCambio.dll
+J:\Casa de Cambio\prjCambio\prjCambio\obj\Debug\prjCambio.pdb
+J:\Casa de Cambio\s\prjCambio\prjCambio\bin\prjCambio.dll
+J:\Casa de Cambio\s\prjCambio\prjCambio\bin\prjCambio.pdb
+J:\Casa de Cambio\s\prjCambio\prjCambio\obj\Debug\prjCambio.dll
+J:\Casa de Cambio\s\prjCambio\prjCambio\obj\Debug\prjCambio.pdb
+F:\prjCambio\prjCambio\bin\prjCambio.dll
+F:\prjCambio\prjCambio\bin\prjCambio.pdb
+F:\prjCambio\prjCambio\obj\Debug\prjCambio.dll
+F:\prjCambio\prjCambio\obj\Debug\prjCambio.pdb

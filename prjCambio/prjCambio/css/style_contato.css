@@ -1,0 +1,204 @@
+﻿
+@media screen and (min-width: 451px)
+{
+     .titulo_pages {
+        width: 100%;
+        height: 360px;
+        padding: 30px 0;
+        background-image: url("../imagens/contato.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .titulo_pages article {
+        width: 100%;
+        height: 200px;
+        padding-top: 260px;
+        text-align: right;
+        color: white;
+    }
+
+    .titulo {
+        font-family: 'News Cycle', sans-serif;
+        width: 100%;
+        box-sizing: border-box;
+        /*	background: linear-gradient(to right, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.4) 20%, rgba(6,91,47,0.7) 50%,rgba(0,0,0,0.4) 80%, rgba(0,0,0,0.1) 100%);*/
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 10%, rgba(0, 50, 1, 0.7) 100%);
+        padding-right: 70px;
+        font-size:60px;
+    }
+    
+}
+.textos
+{
+    width:95%;
+    margin:auto;
+}
+@media screen and (max-width:450px)
+{
+    .titulo_pages {
+        width: 100%;
+        height: 278px;
+        padding: 30px 0;
+       background-image: url("../imagens/contato.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .titulo_pages article {
+        width: 100%;
+        height: 200px;
+        padding-top: 190px;
+        text-align: right;
+        color: white;
+    }
+
+    .titulo {
+        font-family: 'News Cycle', sans-serif;
+        width: 100%;        
+        box-sizing: border-box;
+        /*	background: linear-gradient(to right, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.4) 20%, rgba(6,91,47,0.7) 50%,rgba(0,0,0,0.4) 80%, rgba(0,0,0,0.1) 100%);*/
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 10%, rgba(0, 50, 1, 0.7) 100%);
+        padding-right:10px;
+        font-size:50px;
+    }
+    
+}
+.conteudo
+{
+    padding-bottom:30px;
+}
+.enviar
+{
+    background-color:#009957;
+    color:White;
+    cursor:pointer;
+    margin:10px 0;
+    padding-left: 20px;
+    padding-right: 20px;      
+}
+.enviar:hover
+{
+    background-color:White;
+    color:#009957;
+}
+
+@media screen and (max-width: 600px)
+{
+    .formulario
+    {
+        padding-top:10px;    
+    }
+    .campo_normal
+    {
+        padding:10px;
+        border:1px solid #009957;
+        border-radius:3px;
+        width:280px;
+        margin:10px 0;
+        box-sizing:border-box;
+    }
+    .txt_area
+    {
+        width:280px;
+        box-sizing:border-box;
+        padding:10px;
+        vertical-align:top;
+        height:250px;    
+        border:1px solid #009957;
+        border-radius:3px;
+    }
+    .texto
+    {        
+        padding:25px;        
+    }
+    .texto p
+    {
+        font-size:24px;
+        line-height:1em;
+        color:#009957;
+    }
+}
+@media screen and ( max-width: 767px) and (min-width:601px)
+{
+    .formulario
+    {
+        padding-top:30px;    
+    }
+    .campo_normal
+    {
+        padding:10px;
+        border:1px solid #065B2F;
+        border-radius:3px;
+        width:100%;
+        margin:10px 0;
+        box-sizing:border-box;
+    }
+    .txt_area
+    {
+        width:100%;
+        box-sizing:border-box;
+        padding:10px;
+        vertical-align:top;
+        height:250px;    
+        border:1px solid #065B2F;
+        border-radius:3px;
+    }
+    .texto
+    {
+        border-right:1px solid #065b2f;
+        padding:30px;        
+    }
+    .texto p
+    {
+        font-size:30px;
+        line-height:1.4em;
+        color:#009957;
+    }
+}
+@media screen and ( min-width: 768px)
+{
+    .formulario
+    {
+        padding-top:30px;    
+    }
+    .campo_normal
+    {
+        padding:10px;
+        border:1px solid #065B2F;
+        border-radius:3px;
+        width:350px;
+        margin:10px 0;
+        box-sizing:border-box;
+    }
+    .txt_area
+    {
+        width:350px;
+        box-sizing:border-box;
+        padding:10px;
+        vertical-align:top;
+        height:250px;    
+        border:1px solid #065B2F;
+        border-radius:3px;
+    }
+    .texto
+    {
+        border-right:1px solid #065b2f;
+        padding:30px 70px;        
+    }
+    .texto p
+    {
+        font-size:24px;
+        line-height:1.4em;
+        color:#009957;
+    }
+}
+.redes_sociais
+{  
+    width:280px;
+    margin: 25px auto;
+}
+.redes_sociais img
+{
+    width:40px;
+}

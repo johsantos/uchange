@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<moedas>
+  <moeda>
+    <cd>real</cd>
+    <nm_moeda>BRL - Real Brasileiro</nm_moeda>    
+  </moeda>
+  <moeda>
+    <cd>dolar</cd>
+    <nm_moeda>USD- Dolar Americano</nm_moeda>    
+  </moeda>
+  <moeda>
+    <cd>euro</cd>
+    <nm_moeda>EUR- Euro</nm_moeda>    
+  </moeda>
+  <moeda>
+    <cd>argentino</cd>
+    <nm_moeda>ARS- Peso Argentino</nm_moeda>    
+  </moeda>
+</moedas>

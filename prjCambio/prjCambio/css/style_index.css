@@ -1,0 +1,76 @@
+﻿.conteudo
+{
+	border-top:3px solid #009957;
+    padding-top:40px;
+}
+figure img{
+	width:150px;
+}
+.titulo_conteudo{
+	text-align: center;
+	color:#065B2F;
+	font-size: 2.2em;
+	margin-bottom: 40px;
+}
+@media screen and (min-width: 400px){
+    .icon_conteudo figcaption{
+	    padding-top: 15px;
+	    width:320px;
+	    font-size: 14px;
+	    line-height: 1.3em;
+	    margin:auto;
+    }
+}
+@media screen and (max-width: 399px){
+    .icon_conteudo figcaption{
+	    padding-top: 15px;
+	    width:100%;
+	    box-sizing:border-box;
+	    font-size: 13px;
+	    line-height: 1.3em;
+	    margin:auto;
+    }
+}
+
+.logotipo {
+    width: 250px;
+    margin: 40px 0px;
+}
+.abrir_dropdown
+{
+    margin-top: 10px;    
+}
+@media screen and (min-width: 539px)
+{
+    .slogan
+    {
+        margin-top:70px;
+        text-align:center;
+        background-color:rgba(0, 50, 1, 0.7);
+        color:White;
+        width:100%;
+        position:absolute;
+        left:0;
+        padding:10px 0;
+    }
+}
+@media screen and (max-width: 538px)
+{
+    .slogan
+    {
+        margin-top:70px;
+        text-align:center;
+        background-color:rgba(0, 50, 1, 0.7);
+        color:White;
+        width:100%;
+        position:absolute;
+        left:0;
+        padding:10px 0;
+    }
+    .slogan h1
+    {
+        font-size:26px;
+    }
+}
+  
+

@@ -1,0 +1,258 @@
+﻿body {
+    overflow-x:hidden;  
+}
+
+@media screen and ( max-width:500px) and (min-width: 401px) {
+	.banner
+    {        
+        background-image: url("../imagens/fundo.jpeg");
+        background-size: cover;        
+        background-attachment: fixed;  
+        background-position:center;      
+        width:100%;	
+        padding:80px 0;
+    }
+    .conversor_zone 
+    {
+        margin-top:250px;
+        margin-left:auto;    
+        margin-right:auto;
+        border-radius: 5px;       		
+        width: 400px;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 350px;
+        z-index: 1;
+    }
+}
+
+@media screen and ( min-width:501px) 
+{
+    .banner
+    {
+        padding-top:80px;
+        background-image: url("../imagens/fundo.jpeg");
+        background-size: cover;        
+        background-attachment: fixed;   
+        height:700px; 
+        width:100%;
+    }
+    .conversor_zone 
+    {   
+        margin:200px auto 0;
+        border-radius: 5px;    
+        width: 400px;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 350px;
+        z-index: 1;
+    }
+   
+}
+@media screen and (min-width: 401px)
+{   
+     .conversor 
+    {    
+        padding: 40px;
+    }
+
+    .selects_custom {
+        font-family: 'Fira Sans', sans-serif;
+        width: 230px;
+        height: 45px;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 3px solid #065B2F;
+        padding: 10px 6px 8px;
+        font-size: 18px;
+    }
+
+    option {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 18px;
+    }
+
+    .txt {
+        font-size: 18px;
+        font-family: 'Fira Sans', sans-serif;
+        width: 85px;
+        height: 45px;
+        box-sizing: border-box;
+        padding: 11px 6px 8px;
+        border: none;
+        border-bottom: 3px solid #065B2F;
+        text-align: center;
+    }
+
+    .converter {
+        font-family: 'Fira Sans', sans-serif;
+        margin-bottom: -16px;
+        margin-left: 21px;
+        background-color: #065B2F;
+        width: 45px;
+        height: 45px;
+        padding: 5px;
+    }
+
+    .division {
+        width: 100%;
+        height: 45px;
+    }
+
+    .division_meio {
+        text-align: center;
+        padding: 5px;
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+    }
+
+    #dolar {
+        background-image: Url("../imagens/usa_icon.png");
+    }
+
+    .resultado {
+        font-size: 40px;
+        color: #2C9316;
+    }
+
+    .result_camp {
+        text-align: center;
+        color: White;
+        background-color: Black;
+        width: 100%;
+        padding: 10px 23px;
+    }
+
+    .textos_origem_destino {
+        font-size: 24px;
+        color: White;
+    }
+
+    .espacamento {
+        padding: 0 10px;
+    }
+
+    .add_inform {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .lbl_valores {
+        padding: 10px;
+    }
+}
+@media screen and ( max-width: 400px)
+{
+    .banner
+    {        
+        padding:80px 0 0;
+        background-image: url("../imagens/fundo.jpeg");
+        background-size: cover;        
+        background-attachment: fixed;  
+        background-position:center;      
+        width:100%;	     
+    }
+    .conversor_zone 
+    {        
+        margin-top:200px;                   		        
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.5);        
+        z-index: 1;
+        width:100%;
+    }
+    .conversor 
+    {    
+        
+        padding:40px;
+        box-sizing:border-box;
+    }
+
+    .selects_custom {
+        font-family: 'Fira Sans', sans-serif;
+        width: 100%;
+        height: 45px;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 3px solid #065B2F;
+        padding: 10px 6px 8px;
+        font-size: 16px;
+    }
+
+    option {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 16px;
+    }
+
+    .txt {
+        font-size: 16px;
+        font-family: 'Fira Sans', sans-serif;
+        width: 150px;
+        height: 45px;
+        box-sizing: border-box;
+        padding: 11px 6px 8px;
+        border: none;
+        border-bottom: 3px solid #065B2F;
+        text-align: left;
+        margin:10px auto;
+        position:relative;
+        left:50%;
+        margin-left:-75px;
+    }
+    .converter {
+        font-family: 'Fira Sans', sans-serif;
+        margin-bottom: -16px;
+        margin-left: 21px;
+        background-color: #065B2F;
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+        margin: 10px auto;
+        position:relative;
+        left:50%;
+        margin-left:-25px;
+    }
+
+    .division {
+        width: 100%;        
+    }
+
+    .division_meio {
+        text-align: center;
+        padding: 5px;
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+    }
+    .resultado {
+        font-size: 40px;
+        color: #2C9316;
+    }
+
+    .result_camp {
+        text-align: center;
+        color: White;
+        background-color: Black;
+        width: 100%;
+        margin-top: -40px;
+        padding: 10px 23px;
+    }
+
+    .textos_origem_destino {
+        font-size: 24px;
+        color: White;
+    }
+
+    .espacamento {
+        padding: 0 10px;
+    }
+
+    .add_inform {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .lbl_valores {
+        padding: 10px;
+    }
+}

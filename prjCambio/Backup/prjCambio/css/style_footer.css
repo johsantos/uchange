@@ -1,0 +1,53 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+
+
+
+
+
+.logotipo_footer {
+    padding-bottom: 20px;
+}
+@media screen and ( max-width: 767px)
+{
+    .texto_footer {
+    font-size: 0.8em;
+    line-height: 0.5em;
+    padding-top: 13px;
+    color: white;
+    text-align:center;
+    }
+    .infor {
+       border-bottom:1px solid gray;
+       width:100%;
+    }
+    .icon_footer {
+    font-size: 34px;
+    }
+}
+@media screen and ( min-width: 768px)
+{
+    .texto_footer {
+    font-size: 0.8em;
+    line-height: 0.5em;
+    
+    padding-top: 13px;
+    color: white;
+    } 
+    .infor {
+    border-right: 1px solid gray;
+    padding-right: 30px;
+    }   
+     .icon_footer {
+    font-size: 34px;
+    }
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 1);
+    padding: 15px 20px 5px;
+    height: auto;
+    color: white;
+    border-top: 3px solid #009957;
+}

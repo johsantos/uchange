@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<moedas>  
+  <moeda-real>       
+    <vl_moeda-dolar>0,315403</vl_moeda-dolar>
+    <vl_moeda-euro>0,268502352</vl_moeda-euro>
+    <vl_moeda-argentino>5,46739357</vl_moeda-argentino>
+    <vl_moeda-real>1</vl_moeda-real>
+  </moeda-real>
+  <moeda-dolar>    
+    <vl_moeda-dolar>1</vl_moeda-dolar>
+    <vl_moeda-euro>0,851299296</vl_moeda-euro>
+    <vl_moeda-argentino>17,3346277</vl_moeda-argentino>
+    <vl_moeda-real>3,17054689</vl_moeda-real>
+  </moeda-dolar>
+  <moeda-euro>    
+    <vl_moeda-dolar>1,1750</vl_moeda-dolar>
+    <vl_moeda_euro>1</vl_moeda_euro>
+    <vl_moeda-argentino>20,3854</vl_moeda-argentino>
+    <vl_moeda-real>3,7276</vl_moeda-real>
+</moeda-euro>
+  <moeda-argentino>    
+    <vl_moeda-dolar>0,05764</vl_moeda-dolar>
+    <vl_moeda-euro>0,04905</vl_moeda-euro>
+    <vl_moeda-argentino>1</vl_moeda-argentino>
+    <vl_moeda-real>0,18286</vl_moeda-real> 
+</moeda-argentino>
+</moedas>
